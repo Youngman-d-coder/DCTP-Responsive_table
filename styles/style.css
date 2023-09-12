@@ -1,0 +1,73 @@
+/* Add some basic styles for the table */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container {
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responsive-table th, .responsive-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.responsive-table th {
+    background-color: #f2f2f2;
+}
+
+/* Add striped rows */
+.responsive-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Add hover effect */
+.responsive-table tr:hover {
+    background-color: #ccc; /* Change to your preferred hover color */
+}
+
+/* Add depth effect on hover */
+.responsive-table tr:hover {
+    background-color: #ccc; /* Change to your preferred hover color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 480px) {
+    .responsive-table {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .responsive-table {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    .responsive-table {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 280px) {
+    .responsive-table {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 240px) {
+    .responsive-table {
+        font-size: 6px;
+    }
+}
