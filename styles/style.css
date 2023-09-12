@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
 .table-container {
     overflow-x: auto;
     padding: 20px;
@@ -13,6 +16,8 @@ body {
 .responsive-table {
     width: 100%;
     border-collapse: collapse;
+    border-radius: 10px; /* Add rounded corners to the table */
+    overflow: hidden; /* Hide overflow content due to rounded corners */
 }
 
 .responsive-table th, .responsive-table td {
