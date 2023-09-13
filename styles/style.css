@@ -4,10 +4,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1 {
     text-align: center;
     font-size: xx-large;
 }
+
 .table-container {
     overflow-x: auto;
     padding: 20px;
@@ -21,28 +23,28 @@ h1 {
 }
 
 .responsive-table th, .responsive-table td {
-    border: 1px solid #ddd;
+    border: 1px solid #7e5d5d;
     padding: 8px;
     text-align: left;
 }
 
 .responsive-table th {
-    background-color: #f2f2f2;
+    background-color: #979797;
 }
 
 /* Add striped rows */
 .responsive-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #979797;
 }
 
 /* Add hover effect */
 .responsive-table tr:hover {
-    background-color: #ccc; /* Change to your preferred hover color */
+    background-color: #7a6a6a;
 }
 
 /* Add depth effect on hover */
 .responsive-table tr:hover {
-    background-color: #ccc; /* Change to your preferred hover color */
+    background-color: #7a6a6a;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
 }
 
